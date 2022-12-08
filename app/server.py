@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=13ZqR1Ny2VPiid7gZ6n1IXPW9H3Azoxpc'
-export_file_name = 'stem3.pkl'
+export_file_name = 'export.pkl'
 
 classes = ['blumeana', 'moso', 'quadrangularis']
 path = Path(__file__).parent
